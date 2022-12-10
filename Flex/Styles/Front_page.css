@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100&family=Crimson+Text:ital@1&family=Dancing+Script:wght@500&family=Poppins:ital@1&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url(../Images/3.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #Rey{
+
+    }
+    header{
+        display: flex;
+        background-color: rgb(4, 2, 76);
+        overflow: hidden;
+        border-bottom:1px solid aliceblue;
+        box-shadow:0.2px 10px 100px  5px rgb(0, 47, 255);
+    }
+    h1{
+        width: 40%;
+        color: aliceblue;
+        text-align: left;
+        padding: 0.7% 0.1% 0.7% 1%;
+    }
+    #Peon{
+        width: 50%;
+        padding: 1% 1%;
+        text-align: right;
+        display: flex;
+    }
+    #holi{
+        font-size: 10vh;
+        color: blue;
+    }
+    a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 5px 6px;
+        margin-right: 10px;
+        font-size: 102%;
+        display: flex;
+        font-family: 'Alexandria', sans-serif;
+        font-family: 'Crimson Text', serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Poppins', sans-serif;
+        overflow: hidden;
+        width: 100%;
+        border-right: 3px solid rgb(0, 255, 42);
+    }
+    #a2{
+        width: 90%;
+    }
+    
+    #Nosotros{
+        overflow: hidden;
+        display: flex;
+        background-color: rgba(0, 255, 42, 0);
+        width: 17%;
+        display: flex;
+        margin-right: 10px;
+
+    }
+    #Nosotros,#Nosotros1{
+        margin-right: 15px;
+    }
+    #Nosotros1{
+        overflow: hidden;
+        display: flex;
+        width: 12%;
+    }
+    #Nosotros:hover{
+        color: rgb(0, 255, 89);
+    }
+    a:hover{
+        color: rgb(0, 255, 89);
+    }
+    #holi:hover{
+        color: rgb(0, 255, 89);
+    }
+    #material_notebook,#material_outlined{
+        margin-right: 10px;
+    
+    }
+    #clon{
+        background-color: rgb(0, 0, 0);
+    }
+    @media screen and(min_width){
+        #material:hover{
+           
+
+        }
+        #material_notebook{
+          
+            
+        }
+
+    }
+    
+    nav{
+        margin-top: 10%;
+        height: 40vh;
+        width: 100%;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.504);
+        /*
+        background-color: rgba(44, 44, 216, 0.252);
+  
+  */  }
+    #Peon2{
+        overflow: hidden;
+        padding: 4% 0px 2% 8%;
+        background-color: rgba(2, 26, 94, 0.737);
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+        height: 40vh;
+        border: 4px solid rgba(0, 0, 0, 0.189);
+        width: 38%;
+        position: absolute;
+        animation: move_vector 5s ease-in-out both;
+        margin-left: 10px;
+        color: rgb(0, 255, 89);
+    }
+    @keyframes move_vector{
+        0%{
+            transform:  translateX(-700px);
+        }
+        25%{
+            transform:translateX(600px);
+        }
+        50%{
+            transform: translateX(80px);
+        }
+        80%{
+            transform: translateY(-70px);
+        }
+        90%{
+            transform: translateY(60px);
+        }
+        
+    }
+    h2{
+        color: rgb(255, 255, 255);
+    }
+    h4{
+        font-size: 7vh;
+        margin-left: 7%;
+    }
+    button{
+        margin-left: 32%;
+        padding: 3px 2px 3px 10px;
+        font-family: 'Alexandria', sans-serif;
+        font-family: 'Crimson Text', serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        display: flex;
+        border: 3px solid rgb(0, 0, 0);
+        cursor:pointer rgb(255, 29, 29);
+        
+        overflow: hidden;
+        font-size: 15px;
+    }
+    button:hover{
+        background-color: rgb(170, 173, 170);
+        cursor: default;
+        transition-duration: 1s;
+        transform: translateX(10px);
+    }
+    #account_balance{
+        font-size: 8vh;
+        margin-left: 4%;
+        color: rgb(30, 255, 1);
+    }
+    #ol{
+        width: 100%;
+    }
+    article{
+        overflow: hidden;
+        
+       
+    }
+    #money{
+        color: rgb(203, 197, 0);
+        position: absolute;
+        font-size: 55px;
+        margin: 10px;
+        animation:money 3s linear infinite ;
+        
+    }
+
+@keyframes money{
+    0%{
+        bottom:0;
+        opacity: 3;
+    }
+    50%{
+        opacity: 2;
+    }
+    100%{
+        bottom:150vh;
+        opacity: 1;
+    }
+    
+}
+#money1{
+    color: rgb(203, 197, 0);
+    position: absolute;
+    font-size: 55px;
+    margin: 100px;
+    
+    animation:money1 2s linear infinite ;
+    
+}
+@keyframes money1{
+    0%{
+        bottom:0;
+        opacity: 3;
+    }
+    50%{
+        opacity: 2;
+        transform: rotateX(-500px);
+    }
+    100%{
+        bottom:150vh;
+        opacity: 1;
+    }
+    
+}
+#money2{
+    color: rgb(203, 197, 0);
+    position: absolute;
+    font-size: 55px;
+    margin: 100px;
+    animation:money2 5s linear infinite ;
+    
+}
+@keyframes money2{
+    0%{
+        bottom:0;
+        opacity: 3;
+    }
+    50%{
+        opacity: 2;
+        transform: rotateX(-500px);
+    }
+    100%{
+        bottom:150vh;
+        opacity: 1;
+    }
+    
+}
+#money3{
+    color: rgb(203, 197, 0);
+    position: absolute;
+    font-size: 55px;
+    margin: 100px;
+    animation:money3 2s linear infinite ;
+    
+}
+@keyframes money3{
+    0%{
+        bottom:0;
+        opacity: 3;
+    }
+    50%{
+        opacity: 2;
+    }
+    100%{
+        bottom:150vh;
+        opacity: 1;
+    }
+    
+}
+#money4{
+    color: rgb(203, 197, 0);
+    position: absolute;
+    font-size: 55px;
+    margin: 100px;
+    animation:money4 0.1s linear infinite ;
+    
+}
+@keyframes money4{
+    0%{
+        bottom:0;
+        opacity: 3;
+    }
+    50%{
+        opacity: 2;
+    }
+    100%{
+        bottom:150vh;
+        opacity: 1;
+    }
+    
+}
+#money5{
+    color: rgb(203, 197, 0);
+    position: absolute;
+    font-size: 55px;
+    margin: 100px;
+    animation:money5 6s linear infinite ;
+    
+}
+@keyframes money5{
+    0%{
+        bottom:0;
+        opacity: 3;
+    }
+    50%{
+        opacity: 2;
+    }
+    100%{
+        bottom:150vh;
+        opacity: 1;
+    }
+    
+}
+#money6{
+    color: rgb(203, 197, 0);
+    position: absolute;
+    font-size: 55px;
+    margin: 100px;
+    animation:money6 5s linear infinite ;
+    
+}
+@keyframes money6{
+    0%{
+        bottom:0;
+        opacity: 3;
+    }
+    50%{
+        opacity: 2;
+    }
+    100%{
+        bottom:150vh;
+        opacity: 1;
+    }
+    
+}
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                    <title>Document</title>
+                <link rel="stylesheet" href="../css/style.css">
+            <link rel="stylesheet" href="../Styles/Second.css">
+        </head>
+        <body>
+            <div id="Rey">
+                <header>
+                    <span id="account_balance" class="material-symbols-outlined">account_balance</span>
+                        <h1>PREGUNTA CONT</h1>
+                            </header>
+                                <nav>
+                                    <img id="img_second" src="../Images/5.webp" alt="Imagen no encontrada">
+                                        <img id="img_second" src="../Images/6.webp" alt="Imagen no encontrada">
+                                            <img id="img_second" src="../Images/7.jpg" alt="Imagen no encontrada">
+                                                </nav>
+                                                    <div id="particles-js"></div>
+                                                        <script src="../particles.js"></script>
+                                                            <script src="../js/app.js"></script>
+                                                                <script src="js/lib/stats.js"></script>
+                                                                    <script>
+                                                                var count_particles, stats, update;
+                                                            stats = new Stats;
+                                                        stats.setMode(0);
+                                                    stats.domElement.style.position = 'absolute';
+                                                stats.domElement.style.left = '0px';
+                                            stats.domElement.style.top = '0px';
+                                        document.body.appendChild(stats.domElement);
+                                    count_particles = document.querySelector('.js-count-particles');
+                                update = function() {
+                            stats.begin();
+                                stats.end();
+                                    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+                                        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+                                            }
+                                                requestAnimationFrame(update);
+                                                    };
+                                                        requestAnimationFrame(update);
+                                                            </script>
+    </div>
+</body>
+</html>
